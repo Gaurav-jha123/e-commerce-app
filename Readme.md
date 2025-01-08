@@ -21,7 +21,7 @@ Explore the live version of the application here:
 ## 📦 Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Gaurav-jha123/ecommerce-bookstore.git
+   git clone https://github.com/Gaurav-jha123/e-commerce-app.git
    cd ecommerce-bookstore
    cd server --> npm i
    cd client --> npm i
