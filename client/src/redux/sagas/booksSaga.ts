@@ -17,7 +17,7 @@ interface Book {
 function* fetchBooks() {
   try {
     console.log('Fetching books...');
-    const response : AxiosResponse<{ data : Book[] }> = yield call(axios.get, 'http://localhost:3001/api/books');
+    const response : AxiosResponse<{ data : Book[] }> = yield call(axios.get, '/api/books');
     yield put(fetchBooksSuccess(response.data.data));
   } catch (error: any) {
     yield put(fetchBooksFailure(error.message));
