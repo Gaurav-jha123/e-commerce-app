@@ -36,7 +36,7 @@ const BookList: React.FC = () => {
             />
           ))
         ) : (
-          <p>No books available.</p>
+          <h2 className='font-bold'>Backend Deployed on render Please wait for sometime the service has a dowtime and cold start due to free tier</h2>
         )}
       </div>
     </div>
